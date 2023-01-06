@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+    <style>
+
+        caption {
+            font-size: 2em;
+            background-color: gray;
+            border: 1px solid black;
+            box-shadow: 0.5px 1px 0px 0px;
+        }
+
+        th, td {
+        border: 1px solid black;
+        text-align: center;
+        box-shadow: 0.5px 1px 0px 0px;
+        padding: 10px;
+        
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tfoot {
+            background-color: gray;
+        }
+
+        td.edit {
+            text-align: justify;
+            color: white;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tabela de Cronograma Capilar</caption>
+        <tr>
+            <thead>
+                <th>Dias da Semana</th>
+                <th>Etapas de Hidratação</th>
+            </thead>
+            </tr>
+            <tbody>
+                <tr>
+                <td>Segunda</td>
+                <td>Hidratação</td>
+                <tr>
+                    <td>Terça</td>
+                    <td>Nutrição</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>Reconstrução</td>
+                </tr>
+                <tr>
+                    <td>Quinta</td>
+                    <td>Nutrição</td>
+                </tr>
+                <tr>
+                <td>Sexta</td>
+                <td>Hidratação</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <td class="edit">Dias feitos:</td>
+            </tfoot>
+        </tr>
+    </table>
+</body>
+</html>
